@@ -18,6 +18,9 @@
       <Version>1.0.0-alpha-20161104-2</Version>
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="NLog">
+      <Version>5.0.0-beta04</Version>
+    </PackageReference>
     <PackageReference Include="RavenSharp.Core">
       <Version>1.0.0-beta-1</Version>
     </PackageReference>
