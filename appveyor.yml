@@ -3,7 +3,7 @@ environment:
   CLI_VERSION: 1.0.0-preview4-004233
 install:
   # .NET Core SDK binaries
-  - ps: $url = "https://dotnetcli.blob.core.windows.net/dotnet/preview/Binaries/$($env:CLI_VERSION)/dotnet-dev-win-x64.$($env:CLI_VERSION.ToLower()).zip"
+  - ps: $url = "https://dotnetcli.blob.core.windows.net/dotnet/preview/Binaries/1.0.0-preview4-004233/dotnet-dev-win-x64.1.0.0-preview4-004233.zip"
   - ps: $env:DOTNET_INSTALL_DIR = "$pwd\.dotnetsdk"
   - ps: mkdir $env:DOTNET_INSTALL_DIR -Force | Out-Null
   - ps: $tempFile = [System.IO.Path]::GetTempFileName()
