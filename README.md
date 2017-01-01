@@ -1,2 +1,1 @@
-# NLog.Targets.Sentry.Core
-Net core target for Sentry logging wrapper.
+...yea...so this can't work until NLog ports their stuff to Core.
